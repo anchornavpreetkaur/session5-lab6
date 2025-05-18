@@ -1,3 +1,10 @@
+import logo from '../assets/images/tour-1.jpeg'
+import logo2 from '../assets/images/tour-2.jpeg'
+import logo3 from '../assets/images/tour-3.jpeg'
+import logo4 from '../assets/images/tour-4.jpeg' 
+import logo1 from '../assets/images/tour-5.jpeg'
+import logo5 from '../assets/images/tour-6.jpeg'
+
 function Tours() {
   return (
     <div>
@@ -11,7 +18,7 @@ function Tours() {
     <article className="tour-card">
       <div className="tour-img-container">
         <img
-          src="src/assets/images/tour-1.jpeg"
+          src={logo}
           className="tour-img"
           alt="Tibet Adventure"
         />
@@ -40,7 +47,7 @@ function Tours() {
     </article>
     <article className="tour-card">
       <div className="tour-img-container">
-        <img src="src/assets/images/tour-2.jpeg" className="tour-img" alt="best of java" />
+        <img src={logo1} className="tour-img" alt="best of java" />
         <p className="tour-date">october 1th, 2025</p>
       </div>
       <div className="tour-info">
@@ -67,7 +74,7 @@ function Tours() {
     <article className="tour-card">
       <div className="tour-img-container">
         <img
-          src="src/assets/images/tour-3.jpeg"
+          src={logo2}
           className="tour-img"
           alt="explore hong kong"
         />
@@ -97,7 +104,7 @@ function Tours() {
     <article className="tour-card">
       <div className="tour-img-container">
         <img
-          src="src/assets/images/tour-4.jpeg"
+          src={logo3}
           className="tour-img"
           alt="kenya highlights"
         />
